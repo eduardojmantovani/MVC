@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\AspMVC\\AvaliacaoMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|d:\\aspmvc\\avaliacaomvc\\avaliacaomvc\\views\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|solutionrelative:avaliacaomvc\\views\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Migrations\\20240522185823_alunos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvaliacaoMVC\\Migrations\\20240522185823_alunos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|d:\\aspmvc\\avaliacaomvc\\avaliacaomvc\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|solutionrelative:avaliacaomvc\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Migrations\\20240522185733_alunos1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvaliacaoMVC\\Migrations\\20240522185733_alunos1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|d:\\aspmvc\\avaliacaomvc\\avaliacaomvc\\views\\alunos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|solutionrelative:avaliacaomvc\\views\\alunos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|d:\\aspmvc\\avaliacaomvc\\avaliacaomvc\\views\\alunos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|solutionrelative:avaliacaomvc\\views\\alunos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|d:\\aspmvc\\avaliacaomvc\\avaliacaomvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|solutionrelative:avaliacaomvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|d:\\aspmvc\\avaliacaomvc\\avaliacaomvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|solutionrelative:avaliacaomvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Shared\\_LayoutTEMPLATE.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvaliacaoMVC\\Views\\Shared\\_LayoutTEMPLATE.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|d:\\aspmvc\\avaliacaomvc\\avaliacaomvc\\models\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D0781-DD75-4A2C-A287-EDC3C503C49D}|AvaliacaoMVC\\AvaliacaoMVC.csproj|solutionrelative:avaliacaomvc\\models\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -93,91 +77,51 @@
               "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240522185823_alunos2.cs",
+              "DocumentMoniker": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Migrations\\20240522185823_alunos2.cs",
+              "RelativeDocumentMoniker": "AvaliacaoMVC\\Migrations\\20240522185823_alunos2.cs",
+              "ToolTip": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Migrations\\20240522185823_alunos2.cs",
+              "RelativeToolTip": "AvaliacaoMVC\\Migrations\\20240522185823_alunos2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:58:23.839Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AlunosController.cs",
-              "DocumentMoniker": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Controllers\\AlunosController.cs",
-              "RelativeDocumentMoniker": "AvaliacaoMVC\\Controllers\\AlunosController.cs",
-              "ToolTip": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Controllers\\AlunosController.cs",
-              "RelativeToolTip": "AvaliacaoMVC\\Controllers\\AlunosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Title": "20240522185733_alunos1.cs",
+              "DocumentMoniker": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Migrations\\20240522185733_alunos1.cs",
+              "RelativeDocumentMoniker": "AvaliacaoMVC\\Migrations\\20240522185733_alunos1.cs",
+              "ToolTip": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Migrations\\20240522185733_alunos1.cs",
+              "RelativeToolTip": "AvaliacaoMVC\\Migrations\\20240522185733_alunos1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T18:29:24.741Z",
+              "WhenOpened": "2024-05-22T18:57:33.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Alunos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "AvaliacaoMVC\\Views\\Alunos\\Edit.cshtml",
-              "ToolTip": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Alunos\\Edit.cshtml",
-              "RelativeToolTip": "AvaliacaoMVC\\Views\\Alunos\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAwAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T00:04:10.453Z",
+              "Title": "Alunos.cs",
+              "DocumentMoniker": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Models\\Alunos.cs",
+              "RelativeDocumentMoniker": "AvaliacaoMVC\\Models\\Alunos.cs",
+              "ToolTip": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Models\\Alunos.cs",
+              "RelativeToolTip": "AvaliacaoMVC\\Models\\Alunos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:55:33.636Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Alunos\\Create.cshtml",
-              "RelativeDocumentMoniker": "AvaliacaoMVC\\Views\\Alunos\\Create.cshtml",
-              "ToolTip": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Alunos\\Create.cshtml",
-              "RelativeToolTip": "AvaliacaoMVC\\Views\\Alunos\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T23:43:55.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AvaliacaoMVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AvaliacaoMVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T23:42:07.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Alunos\\Index.cshtml",
-              "RelativeDocumentMoniker": "AvaliacaoMVC\\Views\\Alunos\\Index.cshtml",
-              "ToolTip": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Alunos\\Index.cshtml",
-              "RelativeToolTip": "AvaliacaoMVC\\Views\\Alunos\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T23:39:33.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AvaliacaoMVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AvaliacaoMVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T23:32:56.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_LayoutTEMPLATE.cshtml",
-              "DocumentMoniker": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Shared\\_LayoutTEMPLATE.cshtml",
-              "RelativeDocumentMoniker": "AvaliacaoMVC\\Views\\Shared\\_LayoutTEMPLATE.cshtml",
-              "ToolTip": "D:\\AspMVC\\AvaliacaoMVC\\AvaliacaoMVC\\Views\\Shared\\_LayoutTEMPLATE.cshtml",
-              "RelativeToolTip": "AvaliacaoMVC\\Views\\Shared\\_LayoutTEMPLATE.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADsAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T23:19:15.645Z"
             }
           ]
         }
