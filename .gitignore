@@ -365,3 +365,4 @@ FodyWeavers.xsd
 # nao importar
 .vs\*
 obj\*
+bin\*
