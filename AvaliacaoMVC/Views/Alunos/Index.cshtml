@@ -1,0 +1,72 @@
+﻿@model IEnumerable<AvaliacaoMVC.Models.Alunos>
+
+@{
+    ViewData["Title"] = "Lista de Alunos";
+}
+
+<h1>Lista de Alunos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-sm btn-success">Criar novo Aluno</a>
+</p>
+
+<form asp-controller="Alunos" asp-action="Index">
+    <div class="d-flex align-items-center">
+        <div class="col-sm-3 px-3">
+            Nome do Aluno: <input type="text" name="searchString" class="form-control form-control-sm" />
+        </div>
+        <div class="col-sm-3">
+            <input type="submit" value="Filtrar" class="btn btn-sm btn-outline-secondary mt-4" />
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CEP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Turma)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Idade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Endereco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CEP)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Turma)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AlunosId" class="btn btn-sm btn-success"><i class="bi bi-pen"></i> Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.AlunosId" class="btn btn-sm btn-secondary"><i class="bi bi-card-list"></i> Detalhes</a>
+                    <a asp-action="Delete" asp-route-id="@item.AlunosId" class="btn btn-sm btn-danger"><i class="bi bi-file-earmark-x"></i> Apagar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

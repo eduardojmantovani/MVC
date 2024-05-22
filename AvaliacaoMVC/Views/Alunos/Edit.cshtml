@@ -1,0 +1,63 @@
+﻿@model AvaliacaoMVC.Models.Alunos
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h4>Editar Alunos</h4>
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="AlunosId" />
+            <div class="row">
+                <div class="col-10">
+                    <label asp-for="Nome" class="control-label"></label>
+                    <input asp-for="Nome" class="form-control" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="col-2">
+                    <label asp-for="Idade" class="control-label"></label>
+                    <input asp-for="Idade" class="form-control" />
+                    <span asp-validation-for="Idade" class="text-danger"></span>
+                </div>
+                <div class="col-9">
+                    <label asp-for="Endereco" class="control-label"></label>
+                    <input asp-for="Endereco" class="form-control" />
+                    <span asp-validation-for="Endereco" class="text-danger"></span>
+                </div>
+                <div class="col-3">
+                    <label asp-for="CEP" class="control-label"></label>
+                    <input asp-for="CEP" class="form-control" />
+                    <span asp-validation-for="CEP" class="text-danger"></span>
+                </div>
+                <div class="col-5">
+                    <label asp-for="Turma" class="control-label"></label>
+                    <input asp-for="Turma" class="form-control" />
+                    <span asp-validation-for="Turma" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group mt-4">
+                    <input type="submit" value="Criar" class="btn btn-sm btn-primary" />
+                    <a asp-action="Index" class="btn btn-sm btn-secondary">Voltar</a>
+                </div>
+            </div>
+
+
+
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
