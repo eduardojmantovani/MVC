@@ -17,6 +17,7 @@ namespace AvaliacaoMVC.Models
 
         [Display(Name = "Endereço")]
         [Required(ErrorMessage = "Informe o endereço do aluno")]
+        [StringLength(100)]
         public string? Endereco { get; set; }
 
         [Required(ErrorMessage = "Informe o CEP do aluno")]
@@ -26,5 +27,8 @@ namespace AvaliacaoMVC.Models
         [Required(ErrorMessage = "Informe a Turma do aluno")]
         [StringLength(20, ErrorMessage = "Até 50 carateres",MinimumLength =1)]
         public string? Turma { get; set; }
+
+        [Range(1,30,ErrorMessage ="Selecione um dia")]
+        public int diaPagamento { get; set; }
     }
 }
