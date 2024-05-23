@@ -12,8 +12,11 @@
 
 <form asp-controller="Alunos" asp-action="Index">
     <div class="d-flex align-items-center">
-        <div class="col-sm-3 px-3">
+        <div class="col-sm-6 px-3">
             Nome do Aluno: <input type="text" name="searchString" class="form-control form-control-sm" />
+        </div>
+        <div class="col-sm-2 px-3">
+            Data pgto: <input type="number" name="payDay" class="form-control form-control-sm" />
         </div>
         <div class="col-sm-3">
             <input type="submit" value="Filtrar" class="btn btn-sm btn-outline-secondary mt-4" />
@@ -39,6 +42,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Turma)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiaPagamento)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -60,6 +66,9 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Turma)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiaPagamento)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.AlunosId" class="btn btn-sm btn-success"><i class="bi bi-pen"></i> Editar</a>

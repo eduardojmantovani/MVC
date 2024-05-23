@@ -3,6 +3,7 @@ using AvaliacaoMVC.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AvaliacaoMVC.Migrations
 {
     [DbContext(typeof(AvaliacaoMVCContext))]
-    partial class AvaliacaoMVCContextModelSnapshot : ModelSnapshot
+    [Migration("20240522194204_alunos4")]
+    partial class alunos4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,9 +47,6 @@ namespace AvaliacaoMVC.Migrations
 
                     b.Property<int>("Idade")
                         .HasColumnType("int");
-
-                    b.Property<double>("Mensalidade")
-                        .HasColumnType("float");
 
                     b.Property<string>("Nome")
                         .IsRequired()

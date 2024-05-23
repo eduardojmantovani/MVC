@@ -20,7 +20,7 @@ namespace AvaliacaoMVC.Controllers
         }
 
         // GET: Alunos
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string searchString, string payDay)
         {
             if (_context.Alunos == null)
             {
@@ -30,8 +30,12 @@ namespace AvaliacaoMVC.Controllers
 
             if (!String.IsNullOrEmpty(searchString))
             {
-
                 alunos = alunos.Where(s => s.Nome!.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(payDay))
+            {
+                alunos = alunos.Where(s => s.DiaPagamento.ToString()!.Contains(payDay));
             }
             return View(await alunos.ToListAsync());
 
@@ -98,7 +102,7 @@ namespace AvaliacaoMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("AlunosId,Nome,Idade,Endereco,CEP,Turma")] Alunos alunos)
+        public async Task<IActionResult> Edit(int id, [Bind("AlunosId,Nome,Idade,Endereco,CEP,Turma,DiaPagamento,Mensalidade")] Alunos alunos)
         {
             if (id != alunos.AlunosId)
             {

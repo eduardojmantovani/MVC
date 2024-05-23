@@ -28,7 +28,10 @@ namespace AvaliacaoMVC.Models
         [StringLength(20, ErrorMessage = "Até 50 carateres",MinimumLength =1)]
         public string? Turma { get; set; }
 
-        [Range(1,30,ErrorMessage ="Selecione um dia")]
-        public int diaPagamento { get; set; }
+        [Display(Name = "Dia Pagamento")]
+        public int DiaPagamento { get; set; }
+
+        
+        public double Mensalidade { get; set; }
     }
 }
